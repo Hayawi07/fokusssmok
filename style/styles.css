@@ -1,0 +1,140 @@
+body{
+    padding-top: 10%;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    overflow-x: hidden;
+    font-family: 'Encode Sans Expanded', cursive;
+    background-color: #171717;
+}
+
+.icon{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.text{
+    text-shadow: 0 0 7px rgb(255, 170, 0);
+    text-align: center;
+    padding: 5px;
+    margin: auto;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: pink;
+    font-size: 30px;
+}
+
+/* Przyciski */
+.dsc{
+    text-shadow: 0 0 7px #5865F2;
+    display: inline-block;
+    margin: 10px 7px;
+    padding: 15px 35px;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    font-size: 1em;
+    font-weight: 500;
+    background: #171717;
+    color: #5865F2;
+    transition: 0.3s ease-in-out;
+}
+.dsc:hover {
+    text-shadow: 0 0 7px #fff;
+    transform: scale(1.05);
+    padding: 15px px;
+    box-shadow: 0 0 25px #5865F2;
+    background: #5865F2;
+    color: #fff;
+    cursor: pointer;
+}
+.yt{
+    text-shadow: 0 0 10px #ff0000;
+    display: inline-block;
+    margin: 10px 7px;
+    padding: 15px 35px;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    font-size: 1em;
+    font-weight: 500;
+    background: #171717;
+    color: #ff0000;
+    transition: 0.3s ease-in-out;
+}
+.yt:hover {
+    text-shadow: 0 0 7px #fff;
+    transform: scale(1.05);
+    padding: 15px px;
+    box-shadow: 0 0 25px #ff0000;
+    background: #ff0000;
+    color: #fff;
+    cursor: pointer;
+}
+.steam{
+    text-shadow: 0 0 10px #2a475e;
+    display: inline-block;
+    margin: 10px 7px;
+    padding: 15px 35px;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    font-size: 1em;
+    font-weight: 500;
+    background: #171717;
+    color: #2a475e;
+    transition: 0.3s ease-in-out;
+}
+.steam:hover {
+    text-shadow: 0 0 7px #fff;
+    transform: scale(1.05);
+    padding: 15px px;
+    box-shadow: 0 0 25px #2a475e;
+    background: #2a475e;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Redirect */
+.redirect{
+    font-size: 69px;
+    color:pink;
+    text-shadow: 0 0 7px rgb(255, 115, 0);
+}
+
+/* Animowane tło */
+#snowflakes {
+    background: none;
+    background-image: url(https://ladynatural.com.mx/archivos/2018/12/s1.png), url(https://ladynatural.com.mx/archivos/2018/12/s2.png), url(https://ladynatural.com.mx/archivos/2018/12/s3.png);
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: -10;
+    -webkit-animation: snow 10s linear infinite;
+    -moz-animation: snow 10s linear infinite;
+    -ms-animation: snow 10s linear infinite;
+    animation: snow 10s linear infinite;
+    pointer-events: none;
+}
+@keyframes snow {
+0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-moz-keyframes snow {
+0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
+}
+@-webkit-keyframes snow {
+0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-ms-keyframes snow {
+0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}	
