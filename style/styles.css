@@ -12,10 +12,10 @@ body{
     display:flex;
     align-items: center;
     justify-content: center;
-
+    pointer-events: none;
 }
 .text{
-    text-shadow: 0 0 7px rgb(255, 170, 0);
+    text-shadow: 0 0 7px rgb(255, 255, 0);
     text-align: center;
     padding: 5px;
     margin: auto;
@@ -25,11 +25,12 @@ body{
     display: flex;
     color: pink;
     font-size: 30px;
+    pointer-events: none;
 }
 
 /* Przyciski */
 .dsc{
-    text-shadow: 0 0 7px #5865F2;
+    text-shadow: 0 0 5px #5865F2;
     display: inline-block;
     margin: 10px 7px;
     padding: 15px 35px;
@@ -42,7 +43,7 @@ body{
     transition: 0.3s ease-in-out;
 }
 .dsc:hover {
-    text-shadow: 0 0 7px #fff;
+    text-shadow: 0 0 5px #fff;
     transform: scale(1.05);
     padding: 15px px;
     box-shadow: 0 0 25px #5865F2;
@@ -86,7 +87,7 @@ body{
     transition: 0.3s ease-in-out;
 }
 .steam:hover {
-    text-shadow: 0 0 7px #fff;
+    text-shadow: 0 0 5px #fff;
     transform: scale(1.05);
     padding: 15px px;
     box-shadow: 0 0 25px #2a475e;
@@ -99,7 +100,7 @@ body{
 .redirect{
     font-size: 69px;
     color:pink;
-    text-shadow: 0 0 7px rgb(255, 115, 0);
+    text-shadow: 0 0 7px rgb(255, 255, 0);
 }
 
 /* Animowane tło */
