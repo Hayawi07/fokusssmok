@@ -15,7 +15,7 @@ body{
     pointer-events: none;
 }
 .text{
-    text-shadow: 0 0 7px rgb(255, 255, 0);
+    text-shadow: 0 0 7px rgb(255, 187, 0);
     text-align: center;
     padding: 5px;
     margin: auto;
@@ -100,7 +100,7 @@ body{
 .redirect{
     font-size: 69px;
     color:pink;
-    text-shadow: 0 0 7px rgb(255, 255, 0);
+    text-shadow: 0 0 7px rgb(255, 187, 0);
 }
 
 /* Animowane tło */
